@@ -1,0 +1,450 @@
+#hua{
+    width: 100%;
+    flex: 1;
+    background-color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes switch {
+    0%,6.3%{
+        margin-left: 0px;
+    }
+   8.3%,14.6%{
+        margin-left: -480px;
+    }
+
+   16.6%,21.9%{
+        margin-left: -960px;
+    }
+
+    23.9%,30.2%{
+        margin-left: -1440px;
+    }
+
+    32.2%,38.5%{
+        margin-left: -960px;
+    }
+    40.5%,46.8%{
+        margin-left: -480px;
+    }
+   48.8%,55.1%{
+        margin-left: 0px;
+    }
+    57.1%,63.4%{
+        margin-left: -480px;
+    }
+    65.4%,71.7%{
+        margin-left: -960px;
+    }
+    73.7%,80%{
+        margin-left: -1440px;
+    }
+    82%,88.3%{
+        margin-left: -960px;
+    }
+    90.3%,96.6%{
+        margin-left: -480px;
+    }
+    98.6%,100%{
+        margin-left: 0px;
+    }
+
+}
+#sousuo{
+    height: 30px;
+    background-color: grey;
+}
+#sou{
+    height: 30px;
+    width: 95%;
+    border-radius: 2px;
+    background-color: white;
+    box-shadow: 0px 0px 0px gainsboro ;
+    color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chatu{
+    width: 100%;
+    height: 150px;
+    border: 1px solid;
+    overflow: hidden;
+}
+#chatup{
+    width: 2400px;
+    animation: switch 30s linear infinite;
+}
+.meitu{
+    width: 480px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+.m1{
+    width: 2400px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+#tubiao{
+    height: 150px;
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+.tubiaoup{
+    height: 50px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.t1{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t2{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t3{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t4{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t5{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tubiaoup1{
+    height: 20px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin-top: 2px;*/
+}
+.z1{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z2{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z3{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z4{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z5{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.tubiaodown{
+    height: 50px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.t6{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t7{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t8{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t9{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t0{
+    height: 50px;
+    width: 20%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tubiaodown1{
+    height: 20px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.z6{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z7{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z8{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z9{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.z0{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.remen{
+    height: 70px;
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+.rementop{
+    height: 32px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.r1{
+    height: 32px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+.r2{
+    height: 32px;
+    flex: 1;
+}
+.r3{
+    height: 32px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+.r4{
+    height: 32px;
+    /*width: 35%;*/
+    flex: 1;
+}
+.remendown{
+    height: 32px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.r5{
+    height: 32px;
+    /*width: 50%*/
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+.r6{
+    height: 32px;
+    /*width: 35%;*/
+    flex: 1;
+}
+.r7{
+    height: 32px;
+    /*width: 50%;*/
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    /*background-repeat: no-repeat;*/
+}
+.r8{
+    height: 32px;
+    /*width: 35%;*/
+    flex: 1;
+    /*text-align: left;*/
+}
+.xiaobiao{
+    height: 320px;
+    width: 100%;
+    display: block;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.biao{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    flex: 1px;
+    justify-content: center;
+    align-items: center;
+}
+.cs1{
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+.cs2{
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+.cs3{
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+.cs4{
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+.cs5{
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+.cs6{
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+.cs7{
+    height: 30px;
+    flex: 1;
+    text-align: center;
+}
+.book{
+    height: 280px;
+    width: 100%;
+    display: block;
+}
+.u{
+    height: 230px;
+    width: 100%;
+}
+.d{
+    height: 40px;
+    width: 100%;
+    display: block;
+    flex: 1;
+}
+.d1{
+    height: 15px;
+    width: 100%;
+}
+.d2{
+    height: 15px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.d21{
+    height: 15px;
+    flex: 1;
+    text-align: center;
+}
+.d22{
+    height: 15px;
+    flex: 1;
+    text-align: center;
+}
+.d23{
+    height: 15px;
+    flex: 1;
+    text-align: center;
+}

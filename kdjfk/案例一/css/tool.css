@@ -1,0 +1,34 @@
+#tool{
+    height: 30px;
+    width: 100%;
+    background-color: cornsilk;
+    border: 1px solid coral;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+    overflow: scroll;
+    overflow-y : hidden;
+}
+#tool-add{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+
+}
+#six{
+    width: 100%;
+    height: 30px;
+    display: flex;
+
+    text-align: center;
+    overflow: hidden;
+
+}
+#six div{
+    height: 30px;
+    flex: 1;
+}

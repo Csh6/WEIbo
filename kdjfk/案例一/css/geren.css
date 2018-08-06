@@ -1,0 +1,25 @@
+.geren{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    /*flex: 1;*/
+    text-align: center;
+}
+.g1{
+    height: 38px;
+    flex: 1;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.g2{
+    height: 38px;
+    flex: 1;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.g3{
+    height: 38px;
+    flex: 1;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}

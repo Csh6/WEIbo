@@ -1,0 +1,131 @@
+
+
+#signal{
+    /*border: 1px solid black;*/
+    height: 32px;
+    width: 100%;
+    background-color: whitesmoke;
+
+    color: black;
+    display: flex;
+    /*flex: 1;*/
+    justify-content: space-between;
+    /*font-weight: 80;*/
+    font-size: 10px;
+}
+#signal-area div{
+    margin-left: 4px;
+}
+#signal-left{
+    flex: 1px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#signal-center{
+    height: 32px;
+    width: 50px;
+
+}
+#signal-right{
+    flex: 1px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#signal-right div{
+   margin-right: 4px;
+}
+
+/*  信号  */
+#signal-area{
+    height: 18px;
+    width: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+/*  型号层*/
+#signal-area div{
+
+    width: 4px;
+    /*display: flex;*/
+    margin-left: 2px;
+    border-radius: 1px/*圆角*/;
+
+}
+#signal-area div:nth-child(1){
+   height: 5px;
+}
+#signal-area div:nth-child(2){
+    height:8px;
+}
+#signal-area div:nth-child(3){
+    height:11px;
+}
+#signal-area div:nth-child(4){
+    height: 14px;
+}
+.signal-ok{
+    background-color: black;
+}
+.signal-lose{
+    background-color: grey;
+}
+/*  新号结束*/
+
+/* 电池开始*/
+#battery{
+    width: 40px;
+    height: 18px;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+#battery-header{
+    height: 6px;
+    width: 3px;
+    background-color: black;
+    border-radius: 1px 0px 0px 1px;
+}
+#battery-body{
+    height: 12px;
+    width: 32px;
+    border:solid 1px grey;
+    border-radius: 1px;
+    display: flex;
+    justify-content: flex-end;
+}
+#battery-core{
+    height: 10px;
+    width: 26px;
+    background-color: black;
+    margin: 1px;
+
+}
+/*电池结束*/
+
+@keyframes charge {
+    0%{
+        width :1px;
+        background-color:crimson;
+    }
+    25%{
+        width: 6px;
+        background-color: yellow;
+    }
+    80%{
+        width: 12px;
+        background-color: lawngreen;
+    }
+    100%{
+        width: 20px;
+        background-color: lawngreen;
+    }
+
+}
+
+.charging{
+    animation: charge 6s linear infinite;
+}

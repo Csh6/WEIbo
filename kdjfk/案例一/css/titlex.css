@@ -1,0 +1,38 @@
+#titlex{
+    height: 30px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #2f4f4f;
+}
+#titlex-leftnoll{
+    height: 30px;
+    width: 80px;
+    display: block;
+    justify-content: start;
+    align-items: center;
+}
+#titlex-left{
+    height: 30px;
+    width: 80px;
+    display: block;
+    justify-content: start;
+    align-items: center;
+}
+#titlex-center{
+    height: 30px;
+    width: 80px;
+    display: block;
+    justify-content: start;
+    align-items: center;
+}
+#titlex-right{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}

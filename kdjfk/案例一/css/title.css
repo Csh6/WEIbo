@@ -1,0 +1,49 @@
+#title{
+    height: 50px;
+    width: 100%;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: #2f4f4f;
+}
+#title-left{
+    height: 40px;
+    width: 80px;
+    display: block ;
+    justify-content:start;
+    align-items: center;
+    background-image: url(../图片/small/相机.svg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+
+}
+/*#title-photo1{*/
+    /*height: 20px;*/
+    /*width: 20px;*/
+/*}*/
+#title-centerleft{
+    height: 40px;
+   width: 80px;
+}
+#title-centerright{
+    height: 40px;
+    width: 80px;
+}
+#title-right{
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+.title-photo{
+    width: 20px;
+    height: 20px;
+    background-image: url(../图片/small/扫码.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+}

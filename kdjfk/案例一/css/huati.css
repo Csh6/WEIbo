@@ -1,0 +1,294 @@
+#huati{
+    height: 600px;
+    width: 100%;
+    display:block;
+    /*flex-flow: column;*/
+    /*flex: 1;*/
+    overflow: scroll;
+}
+
+.hu{
+    height: 70px;
+    width: 100%;
+    display: block;
+    justify-content: flex-start;
+    /*align-items: center;*/
+}
+.next{
+    height: 150px;
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+.nextup{
+    height: 50px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.n1{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n2{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n3{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n4{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextup1{
+    height: 20px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x1{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.x2{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.x3{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.x4{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.nextdown{
+    height: 50px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.n5{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n6{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n7{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.n8{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextdown1{
+    height: 20px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x5{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.x6{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.x7{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.x8{
+    height: 20px;
+    width: 20%;
+    flex: 1;
+    text-align: center;
+}
+.hutop{
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.bu1{
+    height: 45px;
+    width: 45px;
+    background-position: center;
+    background-size: cover;
+}
+.name1{
+    margin-left: 50px;
+    height: 70px;
+    width: 300px;
+    flex: 1;
+    display: block;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+
+}
+.name1-top{
+    height: 30px;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-items: left;
+}
+.ming{
+    height: 30px;
+    flex: 1;
+    font-size: 18px;
+}
+.huiyuan{
+    height: 30px;
+    width: 80px;
+    font-size: 2px;
+    color: grey;
+    text-align: right;
+}
+.name1-bottom{
+    font-size: 4px;
+}
+.chaohua{
+    height: 90px;
+    width: 100%;
+    flex: 1;
+    display: block;
+    /*justify-content: center;*/
+    border-bottom: 2px sandybrown;
+    align-items: center;
+    margin-top: 2px;
+}
+.chaohua1{
+    height: 50px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.c2{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.c3{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.c4{
+    height: 50px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.chaohua2{
+    height: 25px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c5{
+    height: 25px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.c6{
+    height: 25px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.c7{
+    height: 25px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.c8{
+    height: 25px;
+    width: 25%;
+    flex: 1;
+    text-align: center;
+}
+.qiandao{
+    height: 5px;
+    width: 100%;
+    text-align: center;
+}
